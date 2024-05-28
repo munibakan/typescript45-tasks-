@@ -1,4 +1,2 @@
-var personName = "Muniba";
-console.log("lowercase:", personName.toLowerCase());
-console.log("uppercase:", personName.toLocaleUpperCase());
-console.log("titlecase:", personName.replace(/\bw/g, function (c) { return c.toUpperCase(); }));
+var favouriteNumber = 7;
+console.log("My favourite number is ".concat(favouriteNumber));
