@@ -1,6 +1,4 @@
-"use strict";
-let names = ["Minha", "Ahmed", "khadija", "amna"];
-console.log(`Make Sure To Subscribe To Our Channel, ${names[0]}`);
-console.log(`Make Sure To Subscribe To Our Channel, ${names[1]}`);
-console.log(`Make Sure To Subscribe To Our Channel, ${names[2]}`);
-console.log(`Make Sure To Subscribe To Our Channel, ${names[3]}`);
+var myTransport = ["car", "bike", "Aeroplane", "Trains"];
+myTransport.map(function (i) {
+    console.log("I would like to own a ".concat(i));
+});
