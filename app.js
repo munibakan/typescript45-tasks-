@@ -1,3 +1,6 @@
 "use strict";
-let Guest_List = ["minha", "manahil", "emaan"];
-console.log(`Total number os people invited : ${Guest_List.length}`);
+const Locations = ["Mount Everst", "K2", "Paris", "Istanbul"];
+console.log("\nList of Locations:");
+for (let i = 0; i < Locations.length; i++) {
+    console.log(Locations[i]);
+}
