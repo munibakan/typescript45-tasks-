@@ -1,4 +1,4 @@
-var myTransport = ["car", "bike", "Aeroplane", "Trains"];
-myTransport.map(function (i) {
-    console.log("I would like to own a ".concat(i));
-});
+var Guest_List = ["Anum", "sara", "saba"];
+for (var i = 0; i < Guest_List.length; i++) {
+    console.log("Dear ".concat(Guest_List[i], ":\n you are invited to dinner!\n"));
+}
