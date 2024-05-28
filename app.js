@@ -1,11 +1,3 @@
 "use strict";
-let favouriteplaces = ["Switzerland", "Paris", "Norway", "Austrailia", "Europe"];
-console.log("original order" + favouriteplaces);
-console.log("alphabatical order" + [...favouriteplaces].sort());
-console.log("original order" + favouriteplaces);
-console.log("reverse alphabetical order" + [...favouriteplaces].sort().reverse());
-console.log("original order" + favouriteplaces);
-console.log("Reverse the order of list" + favouriteplaces.reverse());
-console.log("Reverse the order of list" + favouriteplaces.reverse());
-console.log("alphabatical order" + favouriteplaces.sort());
-console.log("alphabatical order" + favouriteplaces.sort().reverse());
+let Guest_List = ["minha", "manahil", "emaan"];
+console.log(`Total number os people invited : ${Guest_List.length}`);
