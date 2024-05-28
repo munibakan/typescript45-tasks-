@@ -1,7 +1,10 @@
-// muniba khan
-// monday, 22, 2024
-//store my favourite number in a variable
-var Favourite_Number = 99;
-//revealing my favourite number 
-var Message = ("My favourite number is ".concat(Favourite_Number));
-console.log(Message);
+"use strict";
+//muniba khan
+// monday-23-24
+//storing friends names in an array//
+let names = ["Hira", "Fatima", "Hiba", "Minha"];
+//printing names one by one
+console.log(names[0]);
+console.log(names[1]);
+console.log(names[2]);
+console.log(names[4]);
