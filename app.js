@@ -1,6 +1,6 @@
 "use strict";
-const Locations = ["Mount Everst", "K2", "Paris", "Istanbul"];
-console.log("\nList of Locations:");
-for (let i = 0; i < Locations.length; i++) {
-    console.log(Locations[i]);
-}
+let OBJ = { Name: "Muniba", Age: 30, profession: "Teacher" };
+console.log(`\n Object Containing Information About Me:\n`);
+console.log(`My Name is:${OBJ.Name}`);
+console.log(`I am ${OBJ.Age}year old`);
+console.log(`I am  a ${OBJ.profession}`);
