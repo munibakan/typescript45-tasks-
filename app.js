@@ -1,10 +1,7 @@
-"use strict";
-function make_album(artistName, albumTitle) {
-    return { artistName, albumTitle };
+var magician = ["brad", "raeez", "ainak wala"];
+function show_magician(magician) {
+    magician.forEach(function (magician) {
+        console.log(magician);
+    });
 }
-let album1 = make_album("Ali", "Rang-e-Mohabbat");
-let album2 = make_album("Maddad", "Roshan Andhera");
-let album3 = make_album("Ayaaz", "Mausam-e-Dil");
-console.log(album1);
-console.log(album2);
-console.log(album3);
+show_magician(magician);
