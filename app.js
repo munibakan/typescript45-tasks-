@@ -1,10 +1,10 @@
 "use strict";
-function city_country(city, country) {
-    console.log(`${city}, ${country}"`);
+function make_album(artistName, albumTitle) {
+    return { artistName, albumTitle };
 }
-city_country("karachi", "paksitan");
-let mycities = city_country("karachi", "pakistan");
-console.log(mycities);
-console.log(city_country("dubai", "UAE"));
-console.log(city_country("london", "united kingdon"));
-console.log(city_country("riyadh", "saudi Arabia"));
+let album1 = make_album("Ali", "Rang-e-Mohabbat");
+let album2 = make_album("Maddad", "Roshan Andhera");
+let album3 = make_album("Ayaaz", "Mausam-e-Dil");
+console.log(album1);
+console.log(album2);
+console.log(album3);
