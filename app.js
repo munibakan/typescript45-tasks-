@@ -1,20 +1,17 @@
 "use strict";
-let age = 1;
-if (age < 2) {
-    console.log("The person is a Baby");
+const favourite_fruit = ["banana", "apple", "mango"];
+if (favourite_fruit.includes('banana')) {
+    console.log("You really like banana!");
 }
-else if (age >= 2 && age < 4) {
-    console.log("The person is a toddler.");
+if (favourite_fruit.includes('apple')) {
+    console.log("You really like an apple!");
 }
-else if (age >= 4 && age < 13) {
-    console.log("The person is a Kid.");
+if (favourite_fruit.includes('mango')) {
+    console.log("You really like mango!");
 }
-else if (age >= 13 && age < 20) {
-    console.log("The person is a Teenager.");
+if (favourite_fruit.includes('orange')) {
+    console.log("You really like an orange!");
 }
-else if (age >= 20 && age < 65) {
-    console.log("The person is an Adult.");
-}
-else {
-    console.log("The person is an Elder.");
+if (favourite_fruit.includes('grapes')) {
+    console.log("You really like grapes!");
 }
