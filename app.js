@@ -1,10 +1,9 @@
 "use strict";
-let usernames = ['Admin', 'muniba', 'sana', 'mariya', 'hina'];
-for (let i = 0; i < usernames.length; i++) {
-    if (usernames[i] === 'Admin') {
-        console.log("Hello Admin,  would you like to see the status report?");
-    }
-    else {
-        console.log(`Hello ${usernames[i]}, thankyou for logging in again.`);
-    }
+let user = ['sana', 'baber', 'saba', 'taha', 'admin'];
+if (user.length === 0) {
+    console.log("We need to find some users!");
+}
+else {
+    user = [];
+    console.log("All user have been removed" + user.length);
 }
