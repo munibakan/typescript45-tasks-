@@ -1,10 +1,16 @@
-var current_users = ["sana", "admin", "sana", "hina", "hala"];
-var new_users = ["fawwad", "baber", "user7", "admin", "user9"];
-new_users.forEach(function (newUser) {
-    if (current_users.some(function (currentUser) { return currentUser.toLowerCase() === newUser.toLowerCase(); })) {
-        console.log("$(newUser} will need to enter a new username.");
+"use strict";
+let myNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+for (let i = 0; i < myNumbers.length; i++) {
+    if (myNumbers[i] == 1) {
+        console.log(` ${myNumbers[i]} st`);
     }
-    else {
-        console.log("".concat(newUser, " is available."));
+    else if (myNumbers[i] == 2) {
+        console.log(` ${myNumbers[i]}nd`);
     }
-});
+    else if (myNumbers[i] == 3) {
+        console.log(`${myNumbers[i]}rd`);
+    }
+    else if (myNumbers[i] >= 4 && myNumbers[i] <= 9) {
+        console.log(`${myNumbers[i]}th`);
+    }
+}
