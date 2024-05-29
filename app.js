@@ -1,9 +1,6 @@
 "use strict";
-let myPizza = ["Cheese Pizza", "Pepperoni Pizza", "Vegetarian Pizza"];
-for (let i = 0; i < myPizza.length; i++) {
-    console.log(myPizza[i]);
-}
-for (let i = 0; i < myPizza.length; i++) {
-    console.log(`I like to eat ${myPizza[i]}`);
-}
-console.log(`\nI really like to eat myPizzas. Pizza comes in a variety of flavours and toppings`);
+let animals = ["dog", "cat", "rabbit"];
+animals.forEach(animal => {
+    console.log(` A ${animal}would make a great pet.`);
+});
+console.log("Any of these animals would amke a great pet!");
