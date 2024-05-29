@@ -1,9 +1,10 @@
-"use strict";
-let user = ['sana', 'baber', 'saba', 'taha', 'admin'];
-if (user.length === 0) {
-    console.log("We need to find some users!");
-}
-else {
-    user = [];
-    console.log("All user have been removed" + user.length);
-}
+var current_users = ["sana", "admin", "sana", "hina", "hala"];
+var new_users = ["fawwad", "baber", "user7", "admin", "user9"];
+new_users.forEach(function (newUser) {
+    if (current_users.some(function (currentUser) { return currentUser.toLowerCase() === newUser.toLowerCase(); })) {
+        console.log("$(newUser} will need to enter a new username.");
+    }
+    else {
+        console.log("".concat(newUser, " is available."));
+    }
+});
