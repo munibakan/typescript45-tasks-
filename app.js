@@ -1,33 +1,20 @@
 "use strict";
-// 1st version
-let alien_color = 'green';
-if (alien_color === 'green') {
-    console.log("Congratulations! You just earned 5 points.");
+let age = 1;
+if (age < 2) {
+    console.log("The person is a Baby");
 }
-else if (alien_color === 'red') {
-    console.log("Congratulations! You just earned 10 points.");
+else if (age >= 2 && age < 4) {
+    console.log("The person is a toddler.");
 }
-else
-    console.log("Congratulations! You just earned 15 points.");
-// 2nd version
-alien_color = 'green';
-if (alien_color === 'green') {
-    console.log("Congratulations! You just earned 10 points.");
+else if (age >= 4 && age < 13) {
+    console.log("The person is a Kid.");
 }
-else if (alien_color === 'yellow') {
-    console.log("Congratulations! You just earned 10 points");
+else if (age >= 13 && age < 20) {
+    console.log("The person is a Teenager.");
+}
+else if (age >= 20 && age < 65) {
+    console.log("The person is an Adult.");
 }
 else {
-    console.log("Congratulations! You just earned 15 points!");
-}
-//3rd version
-alien_color = 'red';
-if (alien_color === 'green') {
-    console.log("Congratulations! You just earned 5 points.");
-}
-else if (alien_color === 'yelloe') {
-    console.log("Congratulations! You just earned 10 points.");
-}
-else {
-    console.log("Congratulations! You just earned 15 points.");
+    console.log("The person is an Elder.");
 }
