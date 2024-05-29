@@ -1,10 +1,14 @@
-function make_sandwich() {
-    var items = [];
-    for (var _i = 0; _i < arguments.length; _i++) {
-        items[_i] = arguments[_i];
+function make_car(manufacturer, model) {
+    var options = [];
+    for (var _i = 2; _i < arguments.length; _i++) {
+        options[_i - 2] = arguments[_i];
     }
-    console.log("Making a sandwich with:".concat(items.join(','), "."));
+    var car = { manufacturer: manufacturer, model: model };
+    options.forEach(function (_a) {
+        var key = _a[0], value = _a[1];
+        return 'car'[key = value];
+    });
+    return car;
 }
-make_sandwich("ham", "cheese");
-make_sandwich("turkey", "lettuce", "tomato");
-make_sandwich("avacado", "sprouts", "mustard", "mayo");
+console.log(make_car("Toyota", "corolla", ["color", "red"], ["year", 2020]));
+console.log(make_car("ford", "fiesta", ["color", "blue",], ["sunroof", true]));
